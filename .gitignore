@@ -1,0 +1,16 @@
+.DS_Store
+*~
+log/*.log
+tmp/**/*
+tmp/*
+doc/api
+doc/app
+doc/plugins
+coverage/*
+coverage.data
+db/*.sqlite3
+*.tmproj
+*.cache
+*.log
+*.pid
+*.sw?
