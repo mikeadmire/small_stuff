@@ -41,7 +41,7 @@ private
       @file_in = File.open(ARGV[0], 'r')
       @file_out = File.open(ARGV[1], 'w')
     rescue
-      puts "EXCEPTION: #{$!}"
+      puts $!
       exit
     end
   end
